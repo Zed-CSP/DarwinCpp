@@ -93,6 +93,17 @@ public:
     double addNodeChance = 0.03;
     double addConnectionChance = 0.05;
     double disableConnectionChance = 0.01;
+
+    //*********************************************************************************************************************
+    // TODO: Implement remaining NEAT functionality
+    // - Add node mutation
+    // - Add connection mutation
+    // - Crossover between genomes
+    // - Genetic distance calculation
+    // Main function for testing
+    // TODO: Replace with proper simulation in main.cpp
+    // FIXME: Update fitness calculation with actual simulation results
+    //*********************************************************************************************************************
     
     Genome() : fitness(0.0) {
         std::random_device rd;
@@ -585,7 +596,7 @@ int main() {
     for (int generation = 0; generation < 100; generation++) {
         // Evaluate fitness for each genome
         for (auto& genome : neat.getPopulation()) {
-            // Replace with simulation logic ********************************************* FLAG ******************************************
+            // Replace with simulation logic ********************************************* FLAG! ******************************************
             double fitness = 0.0;
             
             // Test the neural network on some inputs
