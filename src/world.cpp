@@ -117,8 +117,8 @@ void World::removeDeadOrganisms() {
     );
 }
 
-std::vector<Food*> World::getFoodInRange(double x, double y, double range) {
-    std::vector<Food*> result;
+std::vector<const Food*> World::getFoodInRange(double x, double y, double range) const {
+    std::vector<const Food*> result;
     double rangeSquared = range * range;
     
     for (auto& food : foodItems) {
@@ -136,8 +136,8 @@ std::vector<Food*> World::getFoodInRange(double x, double y, double range) {
     return result;
 }
 
-std::vector<Organism*> World::getOrganismsInRange(double x, double y, double range) {
-    std::vector<Organism*> result;
+std::vector<const Organism*> World::getOrganismsInRange(double x, double y, double range) const {
+    std::vector<const Organism*> result;
     double rangeSquared = range * range;
     
     for (auto& organism : organisms) {

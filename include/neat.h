@@ -34,6 +34,7 @@ public:
     bool enabled;
     int innovationNumber;
     
+    Connection(); 
     Connection(int from, int to, double w, bool enabled);
     Connection(const Connection& other);
 };

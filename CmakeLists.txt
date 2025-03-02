@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.10)
+project(neat_simulation)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Include directories
+include_directories(include)
+
+# Source files
+set(SOURCES
+    src/main.cpp
+    src/neat.cpp
+    src/organism.cpp
+    src/world.cpp
+)
+
+# Create executable
+add_executable(neat_simulation ${SOURCES})

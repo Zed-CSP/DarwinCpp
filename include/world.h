@@ -43,8 +43,8 @@ public:
     void removeDeadOrganisms();
     
     // Environment queries
-    std::vector<Food*> getFoodInRange(double x, double y, double range);
-    std::vector<Organism*> getOrganismsInRange(double x, double y, double range);
+    std::vector<const Food*> getFoodInRange(double x, double y, double range) const;
+    std::vector<const Organism*> getOrganismsInRange(double x, double y, double range) const;
     
     // Getters
     double getWidth() const { return width; }
