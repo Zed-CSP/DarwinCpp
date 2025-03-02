@@ -18,17 +18,17 @@ This project simulates a virtual ecosystem where organisms evolve neural network
 - Standard Library
 - (Optional) SFML or SDL2 for visualization
 
-## Project Structure
-├── include/
-│   ├── neat.h           # NEAT algorithm implementation
-│   ├── organism.h       # Organism behavior and properties
-│   └── world.h          # Simulation environment
-├── src/
-│   ├── neat.cpp         # NEAT implementation
-│   ├── organism.cpp     # Organism implementation
-│   ├── world.cpp        # World implementation
-│   └── main.cpp         # Entry point
-└── README.md
+## Project Structure<br>
+├── include/ <br>
+│   ├── neat.h           # NEAT algorithm implementation<br>
+│   ├── organism.h       # Organism behavior and properties<br>
+│   └── world.h          # Simulation environment<br>
+├── src/<br>
+│   ├── neat.cpp         # NEAT implementation<br>
+│   ├── organism.cpp     # Organism implementation<br>
+│   ├── world.cpp        # World implementation<br>
+│   └── main.cpp         # Entry point<br>
+└── README.md<br>
 
 ## How It Works
 
