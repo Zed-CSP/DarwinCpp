@@ -1,3 +1,5 @@
+#***WIP***
+
 # NEAT Organism Simulation
 
 A C++ implementation of evolving organisms using NeuroEvolution of Augmenting Topologies (NEAT). Scratch Built Neural Networks in C++.
